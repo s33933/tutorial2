@@ -48,7 +48,7 @@ public class Main {
         ArrayList<Integer> resultList = new ArrayList<>();
 
         for (int i = 0; i < array.length; i ++) {
-            if (array[i] % 2 != 0) {
+            if (array[i] % 2 != 0 && i % 2 == 0) {
                 resultList.add(array[i]);
             }
         }

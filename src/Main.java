@@ -47,7 +47,7 @@ public class Main {
     public static int[] filterEvenIndexOddValue(int[] array) {
         ArrayList<Integer> resultList = new ArrayList<>();
 
-        for (int i = 0; i < array.length; i += 2) {
+        for (int i = 0; i < array.length; i ++) {
             if (array[i] % 2 != 0) {
                 resultList.add(array[i]);
             }
